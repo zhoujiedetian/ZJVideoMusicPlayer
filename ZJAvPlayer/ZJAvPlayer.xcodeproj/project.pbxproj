@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98B446264FBCAA56619BF841 /* libPods-ZJAvPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAE05DFAE08CEAC3E697412 /* libPods-ZJAvPlayer.a */; };
+		E21E3EB71E0AB525005CCC42 /* ZJPlayerNetHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E21E3EB61E0AB525005CCC42 /* ZJPlayerNetHandler.m */; };
+		E21E3EBA1E0B77B5005CCC42 /* ZJPlayerRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E21E3EB91E0B77B5005CCC42 /* ZJPlayerRequestTask.m */; };
+		E21E3EBD1E0BA3F6005CCC42 /* NSString+CachePath.m in Sources */ = {isa = PBXBuildFile; fileRef = E21E3EBC1E0BA3F6005CCC42 /* NSString+CachePath.m */; };
+		E22BEC951E09128500B849C0 /* AVPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BEC941E09128500B849C0 /* AVPlayerManager.m */; };
+		E234A3DB1E1BDBF90061EEAB /* ZJCoverImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E234A3DA1E1BDBF90061EEAB /* ZJCoverImageView.m */; };
+		E2546D651E07B68300E70CFF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2546D641E07B68300E70CFF /* BaseViewController.m */; };
+		E27147AE1E02C7BE0004E448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E27147AD1E02C7BE0004E448 /* main.m */; };
+		E27147B11E02C7BE0004E448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E27147B01E02C7BE0004E448 /* AppDelegate.m */; };
+		E27147B41E02C7BE0004E448 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27147B31E02C7BE0004E448 /* ViewController.m */; };
+		E27147B71E02C7BE0004E448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27147B51E02C7BE0004E448 /* Main.storyboard */; };
+		E27147B91E02C7BE0004E448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27147B81E02C7BE0004E448 /* Assets.xcassets */; };
+		E27147BC1E02C7BE0004E448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27147BA1E02C7BE0004E448 /* LaunchScreen.storyboard */; };
+		E27147C71E02C7BE0004E448 /* ZJAvPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E27147C61E02C7BE0004E448 /* ZJAvPlayerTests.m */; };
+		E27147D21E02C7BE0004E448 /* ZJAvPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E27147D11E02C7BE0004E448 /* ZJAvPlayerUITests.m */; };
+		E2E5BD5D1E07BBFB00D7EA14 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E5BD5C1E07BBFB00D7EA14 /* AVFoundation.framework */; };
+		E2E5BD601E07C98200D7EA14 /* ZJNextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E5BD5F1E07C98200D7EA14 /* ZJNextButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E27147C31E02C7BE0004E448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E27147A11E02C7BE0004E448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E27147A81E02C7BE0004E448;
+			remoteInfo = ZJAvPlayer;
+		};
+		E27147CE1E02C7BE0004E448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E27147A11E02C7BE0004E448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E27147A81E02C7BE0004E448;
+			remoteInfo = ZJAvPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0465E1D8890D0AA81B0F100D /* Pods-ZJAvPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJAvPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJAvPlayer/Pods-ZJAvPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		0AAE05DFAE08CEAC3E697412 /* libPods-ZJAvPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJAvPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBD652D3E28D530509EE46D /* Pods-ZJAvPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJAvPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJAvPlayer/Pods-ZJAvPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		E21E3EB51E0AB525005CCC42 /* ZJPlayerNetHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPlayerNetHandler.h; sourceTree = "<group>"; };
+		E21E3EB61E0AB525005CCC42 /* ZJPlayerNetHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPlayerNetHandler.m; sourceTree = "<group>"; };
+		E21E3EB81E0B77B5005CCC42 /* ZJPlayerRequestTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPlayerRequestTask.h; sourceTree = "<group>"; };
+		E21E3EB91E0B77B5005CCC42 /* ZJPlayerRequestTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPlayerRequestTask.m; sourceTree = "<group>"; };
+		E21E3EBB1E0BA3F6005CCC42 /* NSString+CachePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CachePath.h"; sourceTree = "<group>"; };
+		E21E3EBC1E0BA3F6005CCC42 /* NSString+CachePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CachePath.m"; sourceTree = "<group>"; };
+		E22BEC931E09128500B849C0 /* AVPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerManager.h; sourceTree = "<group>"; };
+		E22BEC941E09128500B849C0 /* AVPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerManager.m; sourceTree = "<group>"; };
+		E234A3D91E1BDBF90061EEAB /* ZJCoverImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCoverImageView.h; sourceTree = "<group>"; };
+		E234A3DA1E1BDBF90061EEAB /* ZJCoverImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCoverImageView.m; sourceTree = "<group>"; };
+		E2546D631E07B68300E70CFF /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E2546D641E07B68300E70CFF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E27147A91E02C7BE0004E448 /* ZJAvPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJAvPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27147AD1E02C7BE0004E448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E27147AF1E02C7BE0004E448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E27147B01E02C7BE0004E448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E27147B21E02C7BE0004E448 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E27147B31E02C7BE0004E448 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E27147B61E02C7BE0004E448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E27147B81E02C7BE0004E448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E27147BB1E02C7BE0004E448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E27147BD1E02C7BE0004E448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27147C21E02C7BE0004E448 /* ZJAvPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJAvPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27147C61E02C7BE0004E448 /* ZJAvPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJAvPlayerTests.m; sourceTree = "<group>"; };
+		E27147C81E02C7BE0004E448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27147CD1E02C7BE0004E448 /* ZJAvPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJAvPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27147D11E02C7BE0004E448 /* ZJAvPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJAvPlayerUITests.m; sourceTree = "<group>"; };
+		E27147D31E02C7BE0004E448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2E5BD5C1E07BBFB00D7EA14 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E2E5BD5E1E07C98200D7EA14 /* ZJNextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNextButton.h; sourceTree = "<group>"; };
+		E2E5BD5F1E07C98200D7EA14 /* ZJNextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNextButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E27147A61E02C7BE0004E448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E5BD5D1E07BBFB00D7EA14 /* AVFoundation.framework in Frameworks */,
+				98B446264FBCAA56619BF841 /* libPods-ZJAvPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27147BF1E02C7BE0004E448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27147CA1E02C7BE0004E448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1884A1CB9D112897CB4E85B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2E5BD5C1E07BBFB00D7EA14 /* AVFoundation.framework */,
+				0AAE05DFAE08CEAC3E697412 /* libPods-ZJAvPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E27147A01E02C7BE0004E448 = {
+			isa = PBXGroup;
+			children = (
+				E27147AB1E02C7BE0004E448 /* ZJAvPlayer */,
+				E27147C51E02C7BE0004E448 /* ZJAvPlayerTests */,
+				E27147D01E02C7BE0004E448 /* ZJAvPlayerUITests */,
+				E27147AA1E02C7BE0004E448 /* Products */,
+				E9C3BBE05C552CC08169802E /* Pods */,
+				1884A1CB9D112897CB4E85B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E27147AA1E02C7BE0004E448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E27147A91E02C7BE0004E448 /* ZJAvPlayer.app */,
+				E27147C21E02C7BE0004E448 /* ZJAvPlayerTests.xctest */,
+				E27147CD1E02C7BE0004E448 /* ZJAvPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E27147AB1E02C7BE0004E448 /* ZJAvPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E2546D631E07B68300E70CFF /* BaseViewController.h */,
+				E2546D641E07B68300E70CFF /* BaseViewController.m */,
+				E27147AF1E02C7BE0004E448 /* AppDelegate.h */,
+				E27147B01E02C7BE0004E448 /* AppDelegate.m */,
+				E27147B21E02C7BE0004E448 /* ViewController.h */,
+				E27147B31E02C7BE0004E448 /* ViewController.m */,
+				E22BEC931E09128500B849C0 /* AVPlayerManager.h */,
+				E22BEC941E09128500B849C0 /* AVPlayerManager.m */,
+				E21E3EB51E0AB525005CCC42 /* ZJPlayerNetHandler.h */,
+				E21E3EB61E0AB525005CCC42 /* ZJPlayerNetHandler.m */,
+				E21E3EB81E0B77B5005CCC42 /* ZJPlayerRequestTask.h */,
+				E21E3EB91E0B77B5005CCC42 /* ZJPlayerRequestTask.m */,
+				E21E3EBB1E0BA3F6005CCC42 /* NSString+CachePath.h */,
+				E21E3EBC1E0BA3F6005CCC42 /* NSString+CachePath.m */,
+				E234A3D91E1BDBF90061EEAB /* ZJCoverImageView.h */,
+				E234A3DA1E1BDBF90061EEAB /* ZJCoverImageView.m */,
+				E2E5BD5E1E07C98200D7EA14 /* ZJNextButton.h */,
+				E2E5BD5F1E07C98200D7EA14 /* ZJNextButton.m */,
+				E27147B51E02C7BE0004E448 /* Main.storyboard */,
+				E27147B81E02C7BE0004E448 /* Assets.xcassets */,
+				E27147BA1E02C7BE0004E448 /* LaunchScreen.storyboard */,
+				E27147BD1E02C7BE0004E448 /* Info.plist */,
+				E27147AC1E02C7BE0004E448 /* Supporting Files */,
+			);
+			path = ZJAvPlayer;
+			sourceTree = "<group>";
+		};
+		E27147AC1E02C7BE0004E448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E27147AD1E02C7BE0004E448 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E27147C51E02C7BE0004E448 /* ZJAvPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E27147C61E02C7BE0004E448 /* ZJAvPlayerTests.m */,
+				E27147C81E02C7BE0004E448 /* Info.plist */,
+			);
+			path = ZJAvPlayerTests;
+			sourceTree = "<group>";
+		};
+		E27147D01E02C7BE0004E448 /* ZJAvPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E27147D11E02C7BE0004E448 /* ZJAvPlayerUITests.m */,
+				E27147D31E02C7BE0004E448 /* Info.plist */,
+			);
+			path = ZJAvPlayerUITests;
+			sourceTree = "<group>";
+		};
+		E9C3BBE05C552CC08169802E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0465E1D8890D0AA81B0F100D /* Pods-ZJAvPlayer.debug.xcconfig */,
+				BEBD652D3E28D530509EE46D /* Pods-ZJAvPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E27147A81E02C7BE0004E448 /* ZJAvPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27147D61E02C7BE0004E448 /* Build configuration list for PBXNativeTarget "ZJAvPlayer" */;
+			buildPhases = (
+				0EB4EE5ACCC841E4B6CBBDF8 /* [CP] Check Pods Manifest.lock */,
+				E27147A51E02C7BE0004E448 /* Sources */,
+				E27147A61E02C7BE0004E448 /* Frameworks */,
+				E27147A71E02C7BE0004E448 /* Resources */,
+				6E60B3F1E1C917A8A7590AAE /* [CP] Embed Pods Frameworks */,
+				FC2C9CB85A6F41F95B0629DE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJAvPlayer;
+			productName = ZJAvPlayer;
+			productReference = E27147A91E02C7BE0004E448 /* ZJAvPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E27147C11E02C7BE0004E448 /* ZJAvPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27147D91E02C7BE0004E448 /* Build configuration list for PBXNativeTarget "ZJAvPlayerTests" */;
+			buildPhases = (
+				E27147BE1E02C7BE0004E448 /* Sources */,
+				E27147BF1E02C7BE0004E448 /* Frameworks */,
+				E27147C01E02C7BE0004E448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E27147C41E02C7BE0004E448 /* PBXTargetDependency */,
+			);
+			name = ZJAvPlayerTests;
+			productName = ZJAvPlayerTests;
+			productReference = E27147C21E02C7BE0004E448 /* ZJAvPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E27147CC1E02C7BE0004E448 /* ZJAvPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27147DC1E02C7BE0004E448 /* Build configuration list for PBXNativeTarget "ZJAvPlayerUITests" */;
+			buildPhases = (
+				E27147C91E02C7BE0004E448 /* Sources */,
+				E27147CA1E02C7BE0004E448 /* Frameworks */,
+				E27147CB1E02C7BE0004E448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E27147CF1E02C7BE0004E448 /* PBXTargetDependency */,
+			);
+			name = ZJAvPlayerUITests;
+			productName = ZJAvPlayerUITests;
+			productReference = E27147CD1E02C7BE0004E448 /* ZJAvPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E27147A11E02C7BE0004E448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zhiyou;
+				TargetAttributes = {
+					E27147A81E02C7BE0004E448 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = U3ME3KZGWP;
+						ProvisioningStyle = Automatic;
+					};
+					E27147C11E02C7BE0004E448 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E27147A81E02C7BE0004E448;
+					};
+					E27147CC1E02C7BE0004E448 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E27147A81E02C7BE0004E448;
+					};
+				};
+			};
+			buildConfigurationList = E27147A41E02C7BE0004E448 /* Build configuration list for PBXProject "ZJAvPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E27147A01E02C7BE0004E448;
+			productRefGroup = E27147AA1E02C7BE0004E448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E27147A81E02C7BE0004E448 /* ZJAvPlayer */,
+				E27147C11E02C7BE0004E448 /* ZJAvPlayerTests */,
+				E27147CC1E02C7BE0004E448 /* ZJAvPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E27147A71E02C7BE0004E448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27147BC1E02C7BE0004E448 /* LaunchScreen.storyboard in Resources */,
+				E27147B91E02C7BE0004E448 /* Assets.xcassets in Resources */,
+				E27147B71E02C7BE0004E448 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27147C01E02C7BE0004E448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27147CB1E02C7BE0004E448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EB4EE5ACCC841E4B6CBBDF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E60B3F1E1C917A8A7590AAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJAvPlayer/Pods-ZJAvPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC2C9CB85A6F41F95B0629DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJAvPlayer/Pods-ZJAvPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E27147A51E02C7BE0004E448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21E3EBD1E0BA3F6005CCC42 /* NSString+CachePath.m in Sources */,
+				E21E3EB71E0AB525005CCC42 /* ZJPlayerNetHandler.m in Sources */,
+				E27147B41E02C7BE0004E448 /* ViewController.m in Sources */,
+				E2546D651E07B68300E70CFF /* BaseViewController.m in Sources */,
+				E27147B11E02C7BE0004E448 /* AppDelegate.m in Sources */,
+				E22BEC951E09128500B849C0 /* AVPlayerManager.m in Sources */,
+				E21E3EBA1E0B77B5005CCC42 /* ZJPlayerRequestTask.m in Sources */,
+				E27147AE1E02C7BE0004E448 /* main.m in Sources */,
+				E234A3DB1E1BDBF90061EEAB /* ZJCoverImageView.m in Sources */,
+				E2E5BD601E07C98200D7EA14 /* ZJNextButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27147BE1E02C7BE0004E448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27147C71E02C7BE0004E448 /* ZJAvPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27147C91E02C7BE0004E448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27147D21E02C7BE0004E448 /* ZJAvPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E27147C41E02C7BE0004E448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E27147A81E02C7BE0004E448 /* ZJAvPlayer */;
+			targetProxy = E27147C31E02C7BE0004E448 /* PBXContainerItemProxy */;
+		};
+		E27147CF1E02C7BE0004E448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E27147A81E02C7BE0004E448 /* ZJAvPlayer */;
+			targetProxy = E27147CE1E02C7BE0004E448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E27147B51E02C7BE0004E448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E27147B61E02C7BE0004E448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E27147BA1E02C7BE0004E448 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E27147BB1E02C7BE0004E448 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E27147D41E02C7BE0004E448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E27147D51E02C7BE0004E448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E27147D71E02C7BE0004E448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0465E1D8890D0AA81B0F100D /* Pods-ZJAvPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = U3ME3KZGWP;
+				INFOPLIST_FILE = ZJAvPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou.ZJAvPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E27147D81E02C7BE0004E448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBD652D3E28D530509EE46D /* Pods-ZJAvPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = U3ME3KZGWP;
+				INFOPLIST_FILE = ZJAvPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou.ZJAvPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E27147DA1E02C7BE0004E448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJAvPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou.ZJAvPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJAvPlayer.app/ZJAvPlayer";
+			};
+			name = Debug;
+		};
+		E27147DB1E02C7BE0004E448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJAvPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou.ZJAvPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJAvPlayer.app/ZJAvPlayer";
+			};
+			name = Release;
+		};
+		E27147DD1E02C7BE0004E448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJAvPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou.ZJAvPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJAvPlayer;
+			};
+			name = Debug;
+		};
+		E27147DE1E02C7BE0004E448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJAvPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou.ZJAvPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJAvPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E27147A41E02C7BE0004E448 /* Build configuration list for PBXProject "ZJAvPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27147D41E02C7BE0004E448 /* Debug */,
+				E27147D51E02C7BE0004E448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27147D61E02C7BE0004E448 /* Build configuration list for PBXNativeTarget "ZJAvPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27147D71E02C7BE0004E448 /* Debug */,
+				E27147D81E02C7BE0004E448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27147D91E02C7BE0004E448 /* Build configuration list for PBXNativeTarget "ZJAvPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27147DA1E02C7BE0004E448 /* Debug */,
+				E27147DB1E02C7BE0004E448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27147DC1E02C7BE0004E448 /* Build configuration list for PBXNativeTarget "ZJAvPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27147DD1E02C7BE0004E448 /* Debug */,
+				E27147DE1E02C7BE0004E448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E27147A11E02C7BE0004E448 /* Project object */;
+}
